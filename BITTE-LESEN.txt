@@ -1,0 +1,35 @@
+LUXORA E - FLACHE GITHUB-VERSION (OHNE UNTERORDNER)
+
+Alle Website-Dateien liegen in diesem Verzeichnis. Die ZIP-Datei nicht direkt bei GitHub hochladen.
+
+1. ZIP auf dem Computer entpacken.
+2. GitHub-Repository luxora oeffnen.
+3. Sicherung des bisherigen Repositorys erstellen.
+4. Add file > Upload files waehlen.
+5. Alle Dateien aus diesem Verzeichnis markieren und hochladen (ggf. in mehreren Gruppen).
+6. Ueberpruefen, dass GitHub Pages aus Branch main und /(root) veroeffentlicht.
+7. BITTE-LESEN.txt kann mit hochgeladen werden, ist nicht erforderlich.
+
+WICHTIG FUER SEO:
+Die bisherigen verschachtelten URL-Pfade (z. B. /sehirler/denizli/) werden zu
+flachen URLs (z. B. /sehir-denizli.html). Titel, Canonicals, Sitemap und Links
+wurden entsprechend aktualisiert. Die 404-Seite leitet alte Links im Browser
+weiter, dies ist jedoch KEINE serverseitige 301-Weiterleitung. Google kann
+Ranking-Signale alter URLs dadurch verlieren. Wer alte URLs erhalten moechte,
+sollte die Website mit Verzeichnissen oder einem Build-Workflow bereitstellen.
+
+Wenn im alten Repository die .github/workflows/pages.yml verwendet wird,
+kann diese bei manuellem Start weiterhin die alte verschachtelte Version bauen.
+Darum GitHub Pages auf Deploy from a branch / main / (root) stellen oder
+den bisherigen Workflow gesondert aktualisieren.
+
+Die alten Dateien/Ordner im bisherigen Repository werden durch Upload neuer
+Root-Dateien NICHT automatisch geloescht. Fuer eine reine flache Version
+muessen die veralteten Dateien/Ordner bei Bedarf entfernt werden.
+
+Teste danach diese Links:
+https://luxora-e.com/
+https://luxora-e.com/sehir-denizli.html
+https://luxora-e.com/profil-ella-1.html
+https://luxora-e.com/sitemap.xml
+https://luxora-e.com/robots.txt
